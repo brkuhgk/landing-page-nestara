@@ -6,11 +6,13 @@ import RatingSystem from './components/RatingSystem';
 import Features from './components/Features';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
+import ScrollManager from './components/ScrollManager';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollManager />
       <div className="App">
         <Routes>
           <Route path="/" element={
