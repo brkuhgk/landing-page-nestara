@@ -1,0 +1,123 @@
+.cta-section {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .cta-section p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto 40px;
+  }
+  
+  .waitlist {
+    background-color: var(--white);
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: var(--shadow);
+  }
+  
+  .waitlist h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: var(--gray-800);
+  }
+  
+  .waitlist p {
+    color: var(--gray-500);
+    margin-bottom: 24px;
+  }
+  
+  .waitlist form {
+    display: flex;
+  }
+  
+  .waitlist input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid var(--gray-200);
+    border-radius: 8px 0 0 8px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .waitlist input:focus {
+    border-color: var(--primary);
+  }
+  
+  .waitlist button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 0 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .waitlist button:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .waitlist button:disabled {
+    background-color: var(--gray-300);
+    cursor: not-allowed;
+  }
+  
+  .success-message {
+    padding: 20px;
+    background-color: #ECFDF5;
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary);
+  }
+  
+  .success-message p {
+    color: var(--secondary);
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .error-message {
+    padding: 20px;
+    margin-top: 16px;
+    background-color: #FEF2F2;
+    border-radius: 8px;
+    border-left: 4px solid #EF4444;
+  }
+  
+  .error-message p {
+    color: #B91C1C;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .waitlist {
+      padding: 30px 20px;
+    }
+    
+    .waitlist form {
+      flex-direction: column;
+    }
+    
+    .waitlist input {
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    
+    .waitlist button {
+      border-radius: 8px;
+      padding: 12px;
+    }
+  }
