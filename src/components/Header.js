@@ -15,9 +15,9 @@ const Header = () => {
         </div>
         <nav>
           <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#ratings">Ratings</a></li>
-            <li><a href="#waitlist">Join Waitlist</a></li>
+            <li><a href="/#features">Features</a></li>
+            <li><a href="/#ratings">Ratings</a></li>
+            <li><a href="/#waitlist">Join Waitlist</a></li>
           </ul>
         </nav>
       </div>
