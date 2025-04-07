@@ -16,8 +16,11 @@ const Footer = () => {
           <ul className="footer-links">
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="mailto:contact@nestara.net">Contact Us</a></li>
           </ul>
+        </div>
+        <div className="contact-info">
+          <p>Have questions? Email us at <a href="mailto:contact@nestara.net">contact@nestara.net</a></p>
         </div>
         <div className="copyright">
           <p>&copy; {new Date().getFullYear()} Nestara. All rights reserved.</p>
